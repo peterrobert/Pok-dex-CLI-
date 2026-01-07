@@ -4,7 +4,7 @@
   "description": "Welcome to **Build a Pokédex** — a command-line application that lets you explore Pokémon data directly from your terminal. This project uses the public **PokéAPI** to fetch real Pokémon data via HTTP `GET` requests and presents it through an interactive REPL (Read–Eval–Print Loop).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest --run",
     "build": "npx tsc",
     "start": "node dist/main.js",
     "dev": "npx tsc && node dist/main.js"
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/peterrobert/Pok-dex-CLI-#readme",
   "devDependencies": {
     "@types/node": "^25.0.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
   }
-  
 }
